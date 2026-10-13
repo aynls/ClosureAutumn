@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>dev.closureautumn.theme</id>
+    <name>ClosureAutumn</name>
+    <vendor>Closure Theme</vendor>
+    <description><![CDATA[
+        A warm dark theme for JetBrains IDEs, adapted from Closure-Autumn in Cursor:
+        coral keywords, pale-gold types, mint methods, and soft-green strings.
+    ]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme id="ClosureAutumn" path="/schemes/ClosureAutumn"/>
+        <themeProvider id="b1269b80-f0c2-4c4a-bbe4-96aa33a28fad"
+                       path="/themes/ClosureAutumn.theme.json"/>
+    </extensions>
+</idea-plugin>

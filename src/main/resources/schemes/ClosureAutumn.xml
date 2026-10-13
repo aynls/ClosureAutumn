@@ -1,0 +1,671 @@
+<scheme name="ClosureAutumn" parent_scheme="Darcula" version="142">
+  <metaInfo>
+    <property name="originalScheme">ClosureAutumn</property>
+  </metaInfo>
+  <colors>
+    <option name="ADDED_LINES_COLOR" value="294538" />
+    <option name="ANNOTATIONS_COLOR" value="AAA298" />
+    <option name="CARET_COLOR" value="DDA080" />
+    <option name="CARET_ROW_COLOR" value="2B2926" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="23211F" />
+    <option name="DELETED_LINES_COLOR" value="71313B" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="3B3834" />
+    <option name="DOCUMENTATION_COLOR" value="2C2A27" />
+    <option name="ERROR_HINT" value="3C2727" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="45413C" />
+    <option name="GUTTER_BACKGROUND" value="23211F" />
+    <option name="INDENT_GUIDE" value="3B3834" />
+    <option name="INFORMATION_HINT" value="2C2A27" />
+    <option name="LINE_NUMBERS_COLOR" value="958D82" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="F5F1EA" />
+    <option name="LOOKUP_COLOR" value="2C2A27" />
+    <option name="METHOD_SEPARATORS_COLOR" value="45413C" />
+    <option name="MODIFIED_LINES_COLOR" value="29425B" />
+    <option name="NOTIFICATION_BACKGROUND" value="2C2A27" />
+    <option name="QUESTION_HINT" value="2E2A1B" />
+    <option name="READONLY_BACKGROUND" value="23211F" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="23211F" />
+    <option name="RIGHT_MARGIN_COLOR" value="3B3834" />
+    <option name="SELECTED_INDENT_GUIDE" value="6F6860" />
+    <option name="SELECTION_BACKGROUND" value="4A3C34" />
+    <option name="SELECTION_FOREGROUND" value="F5F1EA" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="958D82" />
+    <option name="TEARLINE_COLOR" value="45413C" />
+    <option name="WHITESPACES" value="45413C" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="6C5B35" />
+    <option name="FILESTATUS_ADDED" value="62C5A5" />
+    <option name="FILESTATUS_COPIED" value="62C5A5" />
+    <option name="FILESTATUS_DELETED" value="718196" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="718196" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="718196" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FF6678" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FF6678" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FF6678" />
+    <option name="FILESTATUS_MERGED" value="B78CE8" />
+    <option name="FILESTATUS_MODIFIED" value="72ADDF" />
+    <option name="FILESTATUS_RENAMED" value="62C5CE" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="72ADDF" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="72ADDF" />
+    <option name="FILESTATUS_UNKNOWN" value="D2B16F" />
+    <option name="FILESTATUS_addedOutside" value="62C5A5" />
+    <option name="FILESTATUS_changelistConflict" value="FF6678" />
+    <option name="FILESTATUS_modifiedOutside" value="72ADDF" />
+    <option name="FILESTATUS_HIJACKED" value="D2B16F" />
+    <option name="FILESTATUS_OBSOLETE" value="C8A96B" />
+    <option name="FILESTATUS_SWITCHED" value="62C5CE" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="BACKGROUND" value="23211F" />
+        <option name="FOREGROUND" value="F5F1EA" />
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="F5F1EA" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="F39A7E" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="EDD799" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DEFAULT_INTERFACE_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="91D6BF" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="91D6BF" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="DEFAULT_STATIC_METHOD">
+      <value>
+        <option name="FOREGROUND" value="91D6BF" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="E8C3AC" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="E8C3AC" />
+      </value>
+    </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="F5F1EA" />
+      </value>
+    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="F5F1EA" />
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="EDAAB8" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="EDAAB8" />
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="BDD999" />
+      </value>
+    </option>
+    <option name="DEFAULT_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="EDAAB8" />
+      </value>
+    </option>
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="EFFECT_COLOR" value="FF4D61" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="B3AAA1" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEFAULT_BLOCK_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="DEFAULT_DOC_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="DEFAULT_DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="B3AAA1" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="B3AAA1" />
+      </value>
+    </option>
+    <option name="DEFAULT_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="D2BAA1" />
+      </value>
+    </option>
+    <option name="DEFAULT_PUNCTUATION">
+      <value>
+        <option name="FOREGROUND" value="BFB3A5" />
+      </value>
+    </option>
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="F39A7E" />
+      </value>
+    </option>
+    <option name="DEFAULT_NAMESPACE">
+      <value>
+        <option name="FOREGROUND" value="EDD799" />
+      </value>
+    </option>
+    <option name="DEFAULT_MARKDOWN_HEADING">
+      <value>
+        <option name="FOREGROUND" value="F5F1EA" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACES" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="DEFAULT_BRACKETS" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="DEFAULT_PARENTHS" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="DEFAULT_COMMA" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="DEFAULT_DOT" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="DEFAULT_SEMICOLON" baseAttributes="DEFAULT_PUNCTUATION" />
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="2A3032" />
+        <option name="ERROR_STRIPE_COLOR" value="355B75" />
+      </value>
+    </option>
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3F342D" />
+        <option name="ERROR_STRIPE_COLOR" value="DDA080" />
+      </value>
+    </option>
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="7B6947" />
+        <option name="ERROR_STRIPE_COLOR" value="9B824C" />
+      </value>
+    </option>
+    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3C2727" />
+        <option name="ERROR_STRIPE_COLOR" value="DDA080" />
+      </value>
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="72ADDF" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FF6678" />
+        <option name="EFFECT_COLOR" value="FF6678" />
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="FF6678" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="FF4D61" />
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="FF4D61" />
+      </value>
+    </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="C8A96B" />
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="C8A96B" />
+      </value>
+    </option>
+    <option name="WEAK_WARNING_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="8B7650" />
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="8B7650" />
+      </value>
+    </option>
+    <option name="DEPRECATED_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="718196" />
+        <option name="EFFECT_COLOR" value="718196" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="28332D" />
+        <option name="ERROR_STRIPE_COLOR" value="356B57" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="BACKGROUND" value="3C2727" />
+        <option name="ERROR_STRIPE_COLOR" value="DDA080" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="BACKGROUND" value="34312D" />
+        <option name="ERROR_STRIPE_COLOR" value="416886" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="CAD5E2" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="B8B1A7" />
+      </value>
+    </option>
+    <option name="CONSOLE_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="FF6475" />
+      </value>
+    </option>
+    <option name="CONSOLE_USER_INPUT">
+      <value>
+        <option name="FOREGROUND" value="72ADDF" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="AAA298" />
+        <option name="BACKGROUND" value="302E2A" />
+      </value>
+    </option>
+
+    <!-- Shared JVM semantic roles used by Java and Groovy. -->
+    <option name="CLASS_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="INTERFACE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="RECORD_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="ENUM_CONST" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="LOCAL_VARIABLE_ATTRIBUTES" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PARAMETER_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="LAMBDA_PARAMETER_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="REASSIGNED_PARAMETER_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="RECORD_COMPONENT_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FIELD_IMPORTED_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="STATIC_FINAL_FIELD_IMPORTED_ATTRIBUTES" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="METHOD_CALL_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="STATIC_METHOD_CALL_IMPORTED_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="METHOD_DECLARATION_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="Groovy var" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="Groovy reassigned var" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="Groovy parameter" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="Groovy reassigned parameter" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="Groovy method declaration" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="Groovy constructor declaration" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="Groovy constructor call" baseAttributes="DEFAULT_FUNCTION_CALL" />
+
+    <!-- Kotlin semantic roles. -->
+    <option name="KOTLIN_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_ABSTRACT_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_TRAIT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_OBJECT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_DATA_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_DATA_OBJECT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_ANNOTATION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_BUILTIN_ANNOTATION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="KOTLIN_ENUM_ENTRY" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="KOTLIN_SMART_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="KOTLIN_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="KOTLIN_MUTABLE_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="KOTLIN_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="KOTLIN_INSTANCE_PROPERTY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="KOTLIN_BACKING_FIELD_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="KOTLIN_EXTENSION_PROPERTY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="KOTLIN_SYNTHETIC_EXTENSION_PROPERTY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="KOTLIN_PACKAGE_PROPERTY" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="KOTLIN_NAMESPACE_PROPERTY" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="KOTLIN_FUNCTION_DECLARATION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="KOTLIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_EXTENSION_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_SUSPEND_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_CONSTRUCTOR" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="KOTLIN_NAMED_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+
+    <!-- JavaScript and TypeScript semantic roles. -->
+    <option name="JS.CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JS.INTERFACE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JS.TYPE.ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JS.PRIMITIVE.TYPES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="JS.INSTANCE_MEMBER_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="JS.STATIC_MEMBER_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="JS.EXPORTED_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="JS.LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="JS.STATIC_MEMBER_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="JS.EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="JS.EXPORTED_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JS.DECORATOR" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.INTERFACE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.TYPE.ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.PRIMITIVE.TYPES" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.TYPE_PARAMETER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="TS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TS.INSTANCE_MEMBER_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="TS.STATIC_MEMBER_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="TS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="TS.EXPORTED_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="TS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="TS.LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="TS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="TS.STATIC_MEMBER_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="TS.EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="TS.EXPORTED_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.DECORATOR" baseAttributes="DEFAULT_METADATA" />
+
+    <!-- Go semantic roles. -->
+    <option name="GO_TYPE_SPECIFICATION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_EXPORTED_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_EXPORTED_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_LOCAL_STRUCT_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_LOCAL_INTERFACE_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_PACKAGE_EXPORTED_STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_PACKAGE_EXPORTED_INTERFACE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_PACKAGE_LOCAL_STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_PACKAGE_LOCAL_INTERFACE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_BUILTIN_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_FUNCTION_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="GO_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_SCOPE_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_STRUCT_EXPORTED_MEMBER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GO_STRUCT_LOCAL_MEMBER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GO_STRUCT_EXPORTED_MEMBER_CALL" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GO_STRUCT_LOCAL_MEMBER_CALL" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GO_PACKAGE_EXPORTED_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="GO_PACKAGE_LOCAL_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="GO_LOCAL_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_PACKAGE_EXPORTED_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_PACKAGE_LOCAL_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_PACKAGE" baseAttributes="DEFAULT_NAMESPACE" />
+
+    <!-- Python semantic roles. -->
+    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PY.TYPE_PARAMETER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PY.ANNOTATION" baseAttributes="DEFAULT_METADATA" />
+    <option name="PY.DECORATOR" baseAttributes="DEFAULT_METADATA" />
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PY.NESTED_FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PY.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PY.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="PY.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PY.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+
+    <!-- C and C++ semantic roles used by CLion. -->
+    <option name="OC.STRUCT_LIKE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="OC.TYPEDEF" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="STRUCT_LIKE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TYPEDEF" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="CLASS_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PROTOCOL_REFERENCE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="OC.FUNCTION_DECLARATION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="OC.METHOD_DECLARATION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="OC.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="OVERLOADED_OPERATOR" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="OC.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="OC.MESSAGE_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="OC.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="OC.STRUCT_FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="OC.PROPERTY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="OC.IVAR" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="OC.GLOBAL_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="OC.EXTERN_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="OC.ENUM_CONST" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="OC.MACRONAME" baseAttributes="DEFAULT_METADATA" />
+    <option name="OC.MACRO_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="MACRONAME" baseAttributes="DEFAULT_METADATA" />
+    <option name="MACRO_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="OC.DIRECTIVE" baseAttributes="DEFAULT_KEYWORD" />
+
+    <!-- PHP and Ruby semantic roles. -->
+    <option name="PHP_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PHP_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PHP_INSTANCE_METHOD" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PHP_INSTANCE_FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PHP_IDENTIFIER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="PHP_PREDEFINED SYMBOL" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="RUBY_CONSTANT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="RUBY_CONSTANT_DECLARATION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="RUBY_SPECIFIC_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="RUBY_PARAMDEF_CALL" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="RUBY_IVAR" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="RUBY_CVAR" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="RUBY_GVAR" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="RUBY_SYMBOL" baseAttributes="DEFAULT_CONSTANT" />
+
+    <!-- Rust semantic roles. -->
+    <option name="org.rust.STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.UNION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TRAIT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.ENUM_VARIANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.rust.TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.PRIMITIVE_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.CRATE" baseAttributes="DEFAULT_NAMESPACE" />
+    <option name="org.rust.MODULE" baseAttributes="DEFAULT_NAMESPACE" />
+    <option name="org.rust.FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.TRAIT_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.ASSOC_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.TRAIT_METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.ASSOC_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.MACRO" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="org.rust.MUT_BINDING" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="org.rust.FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="org.rust.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.MUT_SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.rust.STATIC" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="org.rust.MUT_STATIC" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="org.rust.LIFETIME" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.ATTRIBUTE" baseAttributes="DEFAULT_METADATA" />
+
+    <!-- SQL, web, data, markup, and shell formats shared across products. -->
+    <option name="SQL_DATABASE_OBJECT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="SQL_SCHEMA" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="SQL_TABLE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="SQL_COLUMN" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="SQL_LOCAL_ALIAS" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="SQL_PROCEDURE" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="SQL_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="SQL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="SQL_LABEL" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="XML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="CSS.TAG_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="CSS.IDENT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="CSS.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="CSS.PROPERTY_NAME" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="CSS.PROPERTY_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="JSON_IDENTIFIER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="JSON_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="JSON_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="JSON_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="YAML_SCALAR_KEY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="YAML_SCALAR_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="YAML_SCALAR_DSTRING" baseAttributes="DEFAULT_STRING" />
+    <option name="YAML_SCALAR_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.toml.KEY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="org.toml.STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="org.toml.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="org.toml.BOOLEAN" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="PROPERTIES.VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="MARKDOWN.HEADER_LEVEL_1" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.HEADER_LEVEL_2" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.HEADER_LEVEL_3" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.HEADER_LEVEL_4" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.HEADER_LEVEL_5" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.HEADER_LEVEL_6" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN_HEADER" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN_HEADER_BOLD" baseAttributes="DEFAULT_MARKDOWN_HEADING" />
+    <option name="MARKDOWN.CODE" baseAttributes="DEFAULT_STRING" />
+    <option name="MARKDOWN.CODE_BLOCK" baseAttributes="DEFAULT_STRING" />
+    <option name="MARKDOWN.LINK" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="MARKDOWN.AUTO_LINK" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="MARKDOWN.EXPLICIT_LINK" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="BASH.VAR_USE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="BASH.VAR_DEF" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="BASH.VAR_USE_COMPOSED" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.SUBSHELL_COMMAND" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="com.jetbrains.cmake.COMMAND" baseAttributes="DEFAULT_FUNCTION_CALL" />
+
+    <!-- Scala's color keys are display-name based. -->
+    <option name="Scala Class" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Abstract class" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Trait" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Object" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Type Alias" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Type parameter" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="Scala Method declaration" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="Scala Class method call" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="Scala Object method call" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="Scala Parameter" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="Scala Local lazy val/var" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="Scala Template val" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="Scala Template var" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="Scala Template lazy val/var" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+
+    <!-- Rider/ReSharper semantic roles. -->
+    <option name="ReSharper.NAMESPACE_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="EDD799" />
+      </value>
+    </option>
+    <option name="ReSharper.STATIC_CLASS_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.STRUCT_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.ENUM_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.DELEGATE_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="EDD799" />
+      </value>
+    </option>
+    <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="ReSharper.EVENT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="E8C3AC" />
+      </value>
+    </option>
+    <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="ReSharper.UNITY_IMPLICITLY_USED_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.UNITY_PERFORMANCE_COSTLY_METHOD_INVOCATION">
+      <value>
+        <option name="EFFECT_COLOR" value="C8A96B" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
